@@ -1,0 +1,124 @@
+[
+  {
+    "qInfo": {
+      "qId": "BZvkc",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "=Match([MesNome], 'jan', 'fev', 'mar')"
+      ],
+      "qFieldLabels": [
+        "1T"
+      ],
+      "title": "1T",
+      "coloring": {
+        "changeHash": "0.2977203823705177"
+      }
+    },
+    "qMetaDef": {
+      "title": "1T",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "NDGWKZb",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "=Piso"
+      ],
+      "qFieldLabels": [
+        "Piso"
+      ],
+      "title": "Piso",
+      "coloring": {
+        "changeHash": "0.8131531132821288"
+      }
+    },
+    "qMetaDef": {
+      "title": "Piso",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "VQGPF",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "=If(Grupo = '10','Aluguel',If (Grupo = '20','Encargo',If (Grupo = '30','Fundo de Promoção')))\r\n"
+      ],
+      "qFieldLabels": [
+        "Grupos"
+      ],
+      "title": "Grupos",
+      "coloring": {
+        "changeHash": "0.67049065174951",
+        "colorMapRef": "VQGPF"
+      }
+    },
+    "qMetaDef": {
+      "title": "Grupos",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "feYcnD",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "=MonthName(MAKEDATE(Ano,Mes))"
+      ],
+      "qFieldLabels": [
+        "Mês/Ano"
+      ],
+      "title": "Mês/Ano",
+      "coloring": {
+        "changeHash": "0.8523244125230713",
+        "colorMapRef": "feYcnD"
+      }
+    },
+    "qMetaDef": {
+      "title": "Mês/Ano",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "mjtzMu",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "TipoLoja"
+      ],
+      "qFieldLabels": [
+        "TipoLoja"
+      ],
+      "title": "TipoLoja",
+      "coloring": {
+        "changeHash": "0.5260341099868238"
+      }
+    },
+    "qMetaDef": {
+      "title": "TipoLoja",
+      "description": "",
+      "tags": []
+    }
+  }
+]

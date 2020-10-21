@@ -1,0 +1,29 @@
+///$tab VS - Recuperado
+CR_RECUP:
+
+LOAD
+    Grupo,
+    CodConta,
+    Conta,  
+    IdTipoLoja,
+    TipoLoja,
+    IdPiso,
+    Piso,    
+    Ano,
+    Mes,
+    Dia,
+    Comp,
+    month(Comp) as MesNome,
+    Contrato,
+    Lojista,
+    Status,
+    Correlativo,
+    Emissao,
+    Vencimento,
+    Pagamento,
+    Luc,
+    Recuperado
+    
+FROM [lib://Transform (letonia_administrador)/VS/CR_FinRecuperado_*.qvd]
+(qvd) 
+Where Ano <= YEAR(Today() )  or Mes <= Month(Today());

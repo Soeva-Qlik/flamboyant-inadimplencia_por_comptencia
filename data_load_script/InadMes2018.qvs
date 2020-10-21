@@ -1,0 +1,7 @@
+///$tab InadMes2018
+LOAD
+    month(DATA) as MesNome,
+    REAL as RealMes
+    
+FROM [lib://Planilhas (letonia_administrador)/Financeiro/InadMetaMes_2018.xlsx]
+(ooxml, embedded labels, table is REAL);

@@ -1,0 +1,17 @@
+///$tab VS - Trimestre
+Trimestre:
+      LOAD * INLINE [
+      Mes, Trimestre
+      1,"1T"
+      2,"1T"
+      3,"1T"     
+      4,"2T"
+      5,"2T"
+      6,"2T"
+      7,"3T"
+      8,"3T"
+      9,"3T"
+      10,"4T"
+      11,"4T"
+      12,"4T"
+  ];

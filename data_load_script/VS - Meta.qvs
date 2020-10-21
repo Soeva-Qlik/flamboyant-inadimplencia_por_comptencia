@@ -1,0 +1,28 @@
+///$tab VS - Meta
+MetaLiq:
+
+LOAD
+
+    Year(DATA) as AnoMetaLiq,
+//     Num(Month(DATA)) as MesMetaLiq,
+    Num(Month(DATA)) as Mes,
+    month(DATA) as MesNome,
+    DATA as DataLiq,
+    META as MetaLiq
+    
+FROM [lib://Planilhas (letonia_administrador)/Financeiro\InadMetaLiquida.xlsx]
+(ooxml, embedded labels, table is Planilha1);
+
+MetaMes:
+
+LOAD
+    
+    Year(DATA) as AnoMetaMes,
+//     Num(Month(DATA)) as MesMetaMes,
+    Num(Month(DATA)) as Mes,
+    month(DATA) as MesNome,
+    DATA as DataMes,
+    META as MetaMes
+    
+ FROM [lib://Planilhas (letonia_administrador)/Financeiro\InadMetaMes.xlsx]
+(ooxml, embedded labels, table is Meta);

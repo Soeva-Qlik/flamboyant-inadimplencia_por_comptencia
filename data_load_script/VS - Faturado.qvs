@@ -1,0 +1,41 @@
+///$tab VS - Faturado
+CR_FAT:
+
+LOAD
+    AutoNumberHash128(Contrato,Luc) as ClasseSocialId,
+    Grupo,
+    CodConta,
+    Conta,  
+    IdTipoLoja,
+    TipoLoja,
+    IdPiso,
+    Piso,
+    Ano,
+    Mes,
+    Dia,
+    Comp,
+    month(Comp) as MesNome,
+    Contrato,
+    Lojista,
+    Status,
+    Correlativo,
+    Emissao,
+    Vencimento,
+    Pagamento,
+    Luc,
+    Faturado    
+FROM [lib://Transform (letonia_administrador)/VS/CR_FinFaturamento_*.qvd](qvd) 
+Where (Ano <= YEAR(Today()))  or( Mes <= Month(Today()))
+;
+
+
+
+ClasseSocial:
+LOAD
+    AutoNumberHash128("Nº Contrato",Luc) 	as ClasseSocialId,
+    "Ramo de atividade"						as ClasseSocialRamoAtividade,
+    "Class. Social"							as ClasseSocial,
+    Piso									as ClasseSocialPiso,
+    Corredor								as ClasseSocialCorredor
+FROM [lib://Planilhas (letonia_administrador)/Financeiro/Vendas/Ajuste Mapa de Riscos.xlsx]
+(ooxml, embedded labels, table is [Classe Social]);

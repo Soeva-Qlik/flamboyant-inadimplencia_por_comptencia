@@ -1,0 +1,29 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "bc05db61-2012-4870-8349-34b1a97c9669",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": {
+        "color": "none",
+        "index": 0
+      },
+      "sheetTitleGradientColor": {
+        "color": "#ffffff",
+        "index": 15
+      },
+      "sheetTitleColor": "#a54343",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {
+          "qUrl": "/appcontent/d104a6db-5b42-4293-9413-ac6098d4366a/logo_marca.jpg"
+        }
+      },
+      "sheetLogoPosition": "left",
+      "rtl": false,
+      "theme": "breeze"
+    },
+    "qChildren": []
+  }
+]

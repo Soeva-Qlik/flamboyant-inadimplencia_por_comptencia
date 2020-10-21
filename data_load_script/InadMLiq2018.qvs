@@ -1,0 +1,8 @@
+///$tab InadMLiq2018
+LOAD
+
+    month(DATA) as MesNome,
+    REAL as RealLiq
+    
+FROM [lib://Planilhas (letonia_administrador)/Financeiro/InadMetaLiquida_2018.xlsx]
+(ooxml, embedded labels, table is Planilha1);

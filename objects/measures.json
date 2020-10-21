@@ -1,0 +1,116 @@
+[
+  {
+    "qInfo": {
+      "qId": "DpvYuw",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Inadimplência Mês",
+      "qDef": "if(Sum(Faturado) - Sum(Recebido) > 0 , Sum(Faturado) - Sum(Recebido)  , 0)\n",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Inadimplência Mês",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "EQnLLs",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Faturamento",
+      "qDef": "Sum(Faturado)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Faturamento",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "dsZATVJ",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Inadimplência Mês (%)",
+      "qDef": "/* Faturado */\r\n(Sum (Faturado)\n\n- \n\n/* Recebido */\nSum(Recebido))\n\n/\n\n/* Faturado */\n(Sum (Faturado)) ",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Inadimplência Mês (%)",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "kEuP",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Recuperado",
+      "qDef": "Sum(Recuperado)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Recuperado",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "kWUJE",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Inadimplência Liquida (%)",
+      "qDef": "/* Recuperado */\r\n(Sum(Recuperado)\n\n+\n\n/* Recebido */ \nSum(Recebido))\n\n/\n\n/* Faturado */ \nSum(Faturado) -1",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Inadimplência Liquida (%)",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "msmrRqd",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Recebimento",
+      "qDef": "Sum(Recebido)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Recebimento",
+      "description": "",
+      "tags": []
+    }
+  }
+]

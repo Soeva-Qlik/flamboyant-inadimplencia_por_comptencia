@@ -1,0 +1,67 @@
+[
+  {
+    "qInfo": {
+      "qId": "e1063ace-bd47-4ece-b1e3-12a247f40eb0",
+      "qType": "bookmark"
+    },
+    "qMetaDef": {
+      "title": "1T2019",
+      "description": ""
+    },
+    "creationDate": "2019-05-03T19:17:16.919Z",
+    "sheetId": "4e4c971c-f0ff-4c34-a597-137b9a445e6b",
+    "selectionFields": "Ano, Mês/Ano",
+    "qData": {
+      "qBookMark": {
+        "qStateData": [
+          {
+            "qStateName": "$",
+            "qFieldItems": [
+              {
+                "qDef": {
+                  "qName": "Ano",
+                  "qType": "PRESENT"
+                },
+                "qSelectInfo": {
+                  "qRangeLo": "NaN",
+                  "qRangeHi": "NaN",
+                  "qNumberFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "qRangeInfo": [],
+                  "qContinuousRangeInfo": []
+                },
+                "qValues": [],
+                "qExcludedValues": []
+              },
+              {
+                "qDef": {
+                  "qName": "=MonthName(MakeDate(Ano,Mes))",
+                  "qType": "PRESENT"
+                },
+                "qSelectInfo": {
+                  "qRangeLo": "NaN",
+                  "qRangeHi": "NaN",
+                  "qNumberFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "qRangeInfo": [],
+                  "qContinuousRangeInfo": []
+                },
+                "qValues": [],
+                "qExcludedValues": []
+              }
+            ]
+          }
+        ],
+        "qUtcModifyTime": 43588.67868055555,
+        "qVariableItems": [],
+        "qPatches": []
+      }
+    }
+  }
+]

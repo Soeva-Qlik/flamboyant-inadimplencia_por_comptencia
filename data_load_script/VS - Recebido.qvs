@@ -1,0 +1,29 @@
+///$tab VS - Recebido
+CR_REC:
+
+LOAD
+    Grupo,
+    CodConta,
+    Conta,    
+    IdTipoLoja,
+    TipoLoja,
+    IdPiso,
+    Piso,    
+    Ano,
+    Mes,
+    Dia,
+    Comp,
+    month(Comp) as MesNome,
+    Contrato,
+    Lojista,
+    Status,
+    Correlativo,
+    Emissao,
+    Vencimento,
+    Pagamento,
+    Luc,
+    Recebido
+    
+FROM [lib://Transform (letonia_administrador)/VS/CR_FinRecebido_*.qvd] 
+(qvd) 
+Where Ano <= YEAR(Today() )  or Mes <= Month(Today());

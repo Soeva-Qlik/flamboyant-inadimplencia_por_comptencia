@@ -1,0 +1,558 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 37,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 22,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 5,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 9,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "Ano",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "AnoMetaLiq",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "MetaLiq"
+    ]
+  },
+  {
+    "qName": "AnoMetaMes",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "MetaMes"
+    ]
+  },
+  {
+    "qName": "ClasseSocial",
+    "qCardinal": 10,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ClasseSocial"
+    ]
+  },
+  {
+    "qName": "ClasseSocialCorredor",
+    "qCardinal": 26,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ClasseSocial"
+    ]
+  },
+  {
+    "qName": "ClasseSocialId",
+    "qCardinal": 1019,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "ClasseSocial"
+    ]
+  },
+  {
+    "qName": "ClasseSocialPiso",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "ClasseSocial"
+    ]
+  },
+  {
+    "qName": "ClasseSocialRamoAtividade",
+    "qCardinal": 53,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ClasseSocial"
+    ]
+  },
+  {
+    "qName": "CodConta",
+    "qCardinal": 48,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Comp",
+    "qCardinal": 350,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Conta",
+    "qCardinal": 47,
+    "qTags": [
+      "$text",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Contrato",
+    "qCardinal": 764,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Correlativo",
+    "qCardinal": 15115,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "DataLiq",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "MetaLiq"
+    ]
+  },
+  {
+    "qName": "DataMes",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "MetaMes"
+    ]
+  },
+  {
+    "qName": "Dia",
+    "qCardinal": 31,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Emissao",
+    "qCardinal": 746,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Faturado",
+    "qCardinal": 15314,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "CR_FAT"
+    ]
+  },
+  {
+    "qName": "Grupo",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "IdPiso",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "IdTipoLoja",
+    "qCardinal": 8,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Lojista",
+    "qCardinal": 668,
+    "qTags": [
+      "$text",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Luc",
+    "qCardinal": 455,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Mes",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP",
+      "MetaLiq",
+      "MetaMes",
+      "Trimestre"
+    ]
+  },
+  {
+    "qName": "MesNome",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP",
+      "MetaLiq",
+      "MetaMes",
+      "Planilha1",
+      "REAL",
+      "$OFMap MesNome"
+    ]
+  },
+  {
+    "qName": "MetaLiq",
+    "qCardinal": 7,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "MetaLiq"
+    ]
+  },
+  {
+    "qName": "MetaMes",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "MetaMes"
+    ]
+  },
+  {
+    "qName": "Pagamento",
+    "qCardinal": 772,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$text",
+      "$ascii",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Piso",
+    "qCardinal": 6,
+    "qTags": [
+      "$text",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "RealLiq",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Planilha1"
+    ]
+  },
+  {
+    "qName": "RealMes",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "REAL"
+    ]
+  },
+  {
+    "qName": "Recebido",
+    "qCardinal": 18984,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "CR_REC"
+    ]
+  },
+  {
+    "qName": "Recuperado",
+    "qCardinal": 2028,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Status",
+    "qCardinal": 5,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "TipoLoja",
+    "qCardinal": 8,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  },
+  {
+    "qName": "Trimestre",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Trimestre"
+    ]
+  },
+  {
+    "qName": "Vencimento",
+    "qCardinal": 880,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "CR_FAT",
+      "CR_REC",
+      "CR_RECUP"
+    ]
+  }
+]
